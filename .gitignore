@@ -9,8 +9,9 @@ backend/*.egg-info/
 backend/uvicorn.out.log
 backend/uvicorn.err.log
 
-# Build plan (not part of the shipped project)
+# Build plan and personal study notes (not part of the shipped project)
 i-d-live-to-make-graceful-ripple.md
+LEARNING_GUIDE.md
 
 # Frontend
 frontend/node_modules/
