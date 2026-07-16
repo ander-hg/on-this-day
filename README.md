@@ -9,7 +9,7 @@ frontend renders the featured event and the rest of the day's history.
 
 ![Screenshot of the On This Day app showing a featured historical event card](docs/screenshot.png)
 
-**Live demo:** _added once deployed — see [Deployment](#deployment)_
+**Live demo:** https://on-this-day-m9d1.onrender.com
 
 ## Tech stack
 
@@ -69,10 +69,12 @@ npx tsc --noEmit
 
 ## Deployment
 
-Deployed as a single service (build the frontend, then install and run the
-backend, which serves both the API and the built frontend from one origin).
-The free tier used for this demo may cold-start after a period of
-inactivity — the first request after a while can take a few seconds.
+Deployed on [Render](https://render.com) as a single web service, defined in
+[`render.yaml`](render.yaml): the build step installs and builds the
+frontend, then installs the backend; the backend serves both the API and the
+built frontend from one origin. It's on Render's free tier, which cold-starts
+after a period of inactivity — the first request after a while can take a
+few seconds.
 
 ## License
 
